@@ -1,0 +1,1355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="bootstrap-5.2.0-beta1-dist/css/bootstrap.css">
+        <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous"> -->
+</head>
+<body>
+    <section class="container-fluid p-0">
+        <section class="container page  ">
+            <div class="html1 row justify-content-center align-items-center h-100">
+                <div class="html w-50 h-25 row text-center align-items-center">
+                    <h1 class=" col fw-bold ">HTML</h1>
+                </div>
+                <div class="html2 text-center pt-4">
+                    <h4 class=" fw-bold">
+                        Ma'nosi-Giper matnli belgilash til.
+                    </h4>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="container page d-flex justify-content-center align-items-center">
+            <div class="darsterminlari h-75 ">
+                <h1 class=" fw-bold dars">
+                    Dars terminlari
+                </h1>
+                <div class="ul">
+                    <li class=" fs-4 pb-2">
+                        <span class=" fw-bold">Browser</span> - veb sahifalarni ochish va Internetdan foydalanish uchun mo'ljallangan maxsus dastur
+                    </li>
+                    <li class=" fs-4 pb-2"><span class=" fw-bold">Domain</span> - saytning nomi</li>
+                    <li class=" fs-4 pb-2"><span class=" fw-bold">Request</span> - veb sahifani yuklash uchun brauzer tomonidan yaratiladigan maxsus so'rov</li>
+                    <li class=" fs-4 pb-2"><span class=" fw-bold">Server</span> - tarmoqga ulangan va doimiy ravishda ishlab turadigan kompyuter. U foydalanuvchidan <span class=" span">kelayotgan</span> so'rovlarni qabul qilib, qayta ishlab, tegishli javob jo'natadi</li>
+                    <li class=" fs-4 pb-2"><span class=" fw-bold">Response</span> - server tomonidan qabul qilinib olingan so'rov uchun yaratilgan javob</li>
+                    <li class=" fs-4"><span class=" fw-bold">Developer tools</span> - dasturchilar uchun mo'ljallangan maxsus uskunalar (instrument)</li>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section class="container page d-flex justify-content-center align-items-center">
+            <div class="html3 ">
+                <div class="html33 w-100 text-center pb-3">
+                    <h1>
+                        <span class=" fw-bold">HTML</span> o'zi nima?
+                    </h1>
+                </div>
+                <ul>
+                    <li>
+                        <h3>
+                            <span class=" fw-bold">HyperText Markup Language</span> <span class=" fst-italic">(HTML)</span> - bu veb-sahifalarni yaratish uchun belgilash tili. Veb-sahifalar odatda veb-brauzerda ko'rib chiqiladi. Ular yozuvlarni, havolalarni, rasmlarni va hatto ovoz va videolarni o'z ichiga olishi mumkin. <span class=" fw-bold">HTML</span> veb-brauzer ularni to'g'ri ko'rsatishi uchun ushbu turdagi tarkibning har birini belgilash va tavsiflash uchun ishlatiladi.
+                        </h3>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+
+        <section class="container page">
+            <div class="element">
+                <h2 class=" fw-bold">
+                    Element: <span><</span>ochuvchi "tag">,content <span><</span> /yopuvchi "tag"> dan tashkil topga struktura
+                </h1>
+            </div>
+
+            <div class="taglar w-100">
+                <h2 class=" w-100 text-center">
+                    <span class=" fw-bold">HTML</span> <span class=" fst-italic">Taglar.</span>
+                </h2>
+                <ul>
+                    <li> <span class=" fw-bold"><span><</span>!DOCTYPE></span> - brauzer biz qaysi <span class=" fw-bold">HTML</span> versiyasini ishlatayotganimizni bilishi uchun.</li>
+                    <li> <span class=" fw-bold"><span><</span>head> </span>brauzerga yordam beruvchi qo'shimcha faylar <span class=" fst-italic">(text uchun shriftlar, css faylar, icon lar va xokazo...)</span></li>
+                    <li> <span class=" fw-bold"><span><</span>title></span> web saytimizning sarlavxasi yaniy sayt nomi <span class=" fst-italic">(chap tomon tepa burchagda bo'ladi)</span></li>
+                    <li> <span class=" fw-bold"><span><</span>body></span> - xamma ma'lumotlarni shu tag ichiga yozamiz masalan: text, image, video, audio, va xokazo... bu tag ichiga yozilgan xamma ma'lumotlar saytimizga kirgan insonga ko'rinadi!</li>
+                </ul>
+                <h4 class=" w-100 text-center pb-1">
+                    <span class=" fw-bold fst-italic">HTML</span> ochiluvchi va yopiluvchi taglardan iborat va o'zini yopuvchi taglardan xam.
+                </h4>
+                <div class="ullll w-100 d-flex justify-content-center">
+                    <div class="ull w-75 ">
+                        <ul class="row justify-content-center">
+                            <li class="col-lg-6 ">
+                                <h4>
+                                    <span class=" fw-bold fst-italic">O'zini yopuvchi taglar</span>
+                                </h4>
+                                
+                                <span class=" fst-italic">
+                                    <h4>
+                                        <span><</span>img>
+                                    </h4>
+                                    <h4>
+                                        <span><</span>input>
+                                    </h4>
+                                    <h4>
+                                        <span><</span>link>
+                                    </h4>
+                                </span>
+                            </li>
+                            <li class="col-lg-6">
+                                <h4>
+                                    <span class=" fw-bold fst-italic">Ochiluvchi va yopiluvchi taglar:</span>
+                                </h4>
+                                <span class=" fst-italic">
+                                    <h4>
+                                        <span><</span>html><span><</span>/html>
+                                    </h4>
+                                    <h4>
+                                        <span><</span>title><span><</span>/title>
+                                    </h4>
+                                    <h4>
+                                        <span><</span>head><span><</span>/head>
+                                    </h4>
+                                    <h4>
+                                        <span><</span>body><span><</span>/body>
+                                    </h4>
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="container page ">
+            <div class="img">
+                <h1 class=" fw-bold  text-center ">
+                    O'zini yopuvchi taglar
+                </h1>
+                <ul>
+                    <h1>
+                        <li>
+                            <span class=" fw-bold"><span><</span>img src="" alt=""> - </span> bu tag orqali rasmlarni brauzerda ko'rsatishimiz mumkun.
+                        </li>
+                    </h1>
+                    <h1 class=" pb-3">
+                        <li>
+                            <span class=" fw-bold"><span><</span>br> -</span> keyingi qatorga o'tishda foydalanadi.
+                        </li>
+                    </h1>
+                    <h1 class=" pb-3">
+                        <li>
+                            <span class=" fw-bold"><span><</span>hr> -</span> pastgi chiziq qilishda foydalaniladi.
+                        </li>
+                    </h1>
+                    <h1>
+                        <li>
+                            <span class=" fw-bold"><span><</span>link rel="stylesheet" href=""> </span>
+                        </li>
+                    </h1>
+                </ul>
+            </div>
+        </section>
+
+
+
+        <section class="container page ">
+            <div class="h1tag justify-content-center">
+                <h1 class=" fw-bold text-center ">
+                    h1 Tag Oilasi
+                </h1>
+                <h3 class=" text-center pt-3 mb-3">
+                    H1 tag oilasi 6 avlodga bo'linad:
+                </h3>
+                <div class="ull2 w-100 d-flex justify-content-center">
+                    <div class="ulll">
+                        <ul class=" ">
+                            <li class=" pb-3">
+                                <h3>
+                                    <span class=" fw-bold "><span><</span>h1>Salom h1<span><</span>/h1></span> - text ni eng katta xajimda ekranga chiqarib beradi 
+                                </h3>
+                            </li>
+                            <li class=" pb-3">
+                                <h3>
+                                    <span class=" fw-bold"><span><</span>h2>Salom h2<span><</span>/h2></span> - text ni h1 dan sal kichikro xajimda ekranga chiqarib beradi 
+                                </h3>
+                            </li>
+                            <li class=" pb-3">
+                                <h3>
+                                    <span class=" fw-bold"><span><</span>h3>Salom h3<span><</span>/h3></span> - text ni h2 dan sal kichikro xajimda ekranga chiqarib beradi
+                                </h3>
+                            </li>
+                            <li class=" pb-3">
+                                <h3>
+                                    <span class=" fw-bold"><span><</span>h4>Salom h4<span><</span>/h4></span> - text ni h3 dan sal kichikro xajimda ekranga chiqarib beradi
+                                </h3>
+                            </li>
+                            <li class=" pb-3">
+                                <h3>
+                                    <span class=" fw-bold"><span><</span>h5>Salom h5<span><</span>/h5></span> - text ni h4 dan sal kichikro xajimda ekranga chiqarib beradi
+                                </h3>
+                            </li>
+                            <li class=" pb-3">
+                                <h3>
+                                    <span class=" fw-bold"><span><</span>h6>Salom h6<span><</span>/h6></span> - text ni h5 dan sal kichikro xajimda ekranga chiqarib beradi
+                                </h3>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section class="container page d-flex justify-content-center align-items-center">
+            <div class="text1">
+                <h1 class=" fw-bold text-center pb-4">
+                    Text bilan ishlovchi taglar
+                </h1>
+                <div class="strong d-flex justify-content-center">
+                    <div class="em w-75">
+                        <ul>
+                            <li class=" pb-3">
+                                <h3>
+                                    <span class=" fw-bold"><span><</span>p>TEXT<span><</span>/p></span> - bu tag katta xajimli textlar uchun foydalanadi 
+                                </h3>
+                            </li>
+                            <li class=" pb-3">
+                                <h3>
+                                    <span class=" fw-bold"><span><</span>strong>TEXT<span><</span>/strong></span> - bu tag text ni yoki text ichidagi biron bir so'zni qalinqilish uchun
+                                </h3>
+                            </li>
+                            <li class=" pb-3">
+                                <h3>
+                                    <span class=" fw-bold"><span><</span>em>TEXT<span><</span>/em></span> - bu tag text ni yoki text ichidagi biron bir so'zni sal egilgan ko'rinishda qilish uchun
+                                </h3>
+                            </li>
+                            <li class=" pb-3">
+                                <h3>
+                                    <span class=" fw-bold"><span><</span>code>TEXT<span><</span>/code></span> - bu tag text ni yoki text ichidagi biror bir dasturlash kodi bo'lsa uni uqishga qulay ko'rinishda chiqarish uchun ishlatiladi
+                                </h3>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section class="container page ">
+            <div class="button d-flex justify-content-center">
+                <div class="buttonn w-75">
+                    <h2 class=" pb-3">
+                        <span class=" red  fw-bold"><span><</span>button></span><span class=" fw-bold">Content</span><span class=" fw-bold red"><span class=" red"><</span>/button> </span> 
+                        --> tugma yaratishda ishlatiladi
+                    </h2>
+                    <h2 class=" pb-3">
+                        <span class=" fw-bold red"><span><</span>i></span><span class=" fw-bold">Content</span><span class=" fw-bold red"><span><</span>/i></span>
+                        --> textlarimizni yonga qiyshaytiradi M: <span class=" fw-bold fst-italic">Lorem</span>
+                    </h2>
+                    <h2 class=" pb-3">
+                        <span class=" fw-bold red">
+                            <span><</span>b></span><span class=" fw-bold">Content</span><span class=" fw-bold red"><span><</span>/b></span> --> bu yozuvni qalin Jirniy qiladi.
+                            M:<span class=" fw-bold">Lorem</span>
+                    </h2>
+                    <h2 class=" pb-3">
+                        <span class=" fw-bold red">
+                            <span><</span>center></span><span class=" fw-bold">Text</span><span class=" fw-bold red"><span><</span>/center></span> --> bu tag yozuvni yoki rasmni ortaga olib beradi
+                    </h2>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="container page ">
+            <div class="span d-flex justify-content-center">
+                <div class="spannn">
+                    <h4 class=" fw-bold pb-2">
+                        <span class=" fw-bold red"><span><</span>span></span><span class=" fw-bold">Content</span><span class=" fw-bold red"><span><</span>/span></span> --> bu yordamchi tag hisoblanadi 
+                    </h4>
+                    <h4 class=" fw-bold pb-2">
+                        <span class=" fw-bold red"><span><</span>del></span><span class=" fw-bold">Content</span><span class=" fw-bold red"><span><</span>/del></span> --> bu delete yani contentimizni o'chirilgan qilib qoyadi M:<span class=" fw-bold"><del>Content</del></span>
+                    </h4>
+                    <h4 class=" fw-bold pb-2">
+                        <span class=" fw-bold red"><span><</span>div></span><span class=" fw-bold">box</span><span class=" fw-bold red"><span><</span>/div></span> --> bu elementlarimizni bitta gruppaga joylash uchun ishlatiladi
+                    </h4>
+                    <h4 class=" fw-bold pb-2">
+                        <span class=" fw-bold red"><span><</span>sub></span><span class=" fw-bold">Content</span><span class=" fw-bold red"><span><</span>/sub></span> --> bu textni index ko'rinishiga olib keladi. 
+                        M: <br> H<span class=" red"><span><</span>sub></span>2<span class=" red"><span><</span>/sub></span>O= <span class=" fst-italic">H<sub>2</sub>O</span>
+                    </h4>
+                    <h4 class=" fw-bold pb-2">
+                        <span class=" fw-bold red"><span><</span>sup></span><span class=" fw-bold">Content</span><span class=" fw-bold red"><span><</span>/sup></span> --> bu daraja
+                        M: x<span class=" red"><span><</span>sup></span>2<span class=" red"><span><</span>/sup></span> = <span class=" fst-italic">x<sup>2</sup></span>
+                    </h4>
+                    <h4 class=" fw-bold pb-2">
+                        <span class=" fw-bold red"><span><</span>font></span><span class=" fw-bold">text</span><span class=" fw-bold red"><span><</span>/font></span> --> bu tag biz uchun textlarga rang berish uchun ishlatiladi.
+                
+                    </h4>
+                    <h4 class=" fw-bold pb-2">
+                        <span class=" fw-bold red"><span><</span>hr></span> --> bu toq tag ya'ni ozini ozi yopuvchi tag, bu pastki chiziq chizish uchun ishlatiladi.
+                    </h4>
+                    <h4 class=" fw-bold pb-2">
+                        <span class=" fw-bold red"><span><</span>br></span> --> bu ham toq tag, bu textlarimizni bitta Enter pastga yozadi.
+                    </h4>
+                    <h4 class=" fw-bold pb-2">
+                        <span class=" red"><span><</span>a</span> <span class=" green">href="</span><span class=" blue"> / /http:google.ru</span><span class=" green">"</span><span class=" red">></span>Google ga o'ting<span class=" red"><span><</span>/a></span> --> bu tagimiz bizga link beradi
+                    </h4>
+                </div>
+            </div>
+        </section>
+
+        <section class="container page ">
+            <div class="atribut">
+                <h1 class=" fw-bold">
+                    Atributlar:
+                </h1>
+                <div class="elem d-flex justify-content-center">
+                    <div class="haq ">
+                        <h3 class=" fw-bold">
+                            Element haqida qo'shimcha ma'lumot beruvchi maxsus so'zlar. Atribut hardoim ochuvchi tag ichida joylashgan bo'ladi va atribut yordamida shu yozayotgan elementimizga qoshimcha ma'lumot berib ketsa bo'ladi.
+                        </h3>
+
+
+
+                        <h4 class=" fw-bold pt-5">
+                            <span class=" blue"><span><</span>tag-nomi</span>  <span class=" red">attribute-nomi="attribute-qiymati"</span><span class=" blue">></span>Content<span class=" blue"><span><</span>/tag-nomi></span>
+                        </h4>
+                    </div>
+                </div>
+
+                <div class="imagee text-center pt-5">
+                    <h3 class=" fw-bold">
+                        Misol:<span><</span>img src="image.png">
+                    </h3>
+                </div>
+            </div>
+        </section>
+
+        <section class="container page ">
+            <div class="coment">
+                <h1 class=" fw-bold">
+                    "Comment"yozish
+                </h1>
+
+                <div class="com text-center pt-5">
+                    <h1 class=" fw-bold">
+                        <span><</span>!--HTMLda izohlar shunday yoziladi--> 
+                    </h1>
+                </div>
+            </div>
+            
+        </section>
+
+
+        <section class="container page ">
+            <div class="iconn d-flex justify-content-center">
+                <div class="icconn w-75">
+                    <div class="hh11 d-flex justify-content-end border-bottom border-5 mb-3">
+                        <h1 class=" green fw-bold ">
+                            ul oilasi 
+                        </h1>
+                    </div>
+                    <h3 class=" pb-2">
+                        <span class=" green fw-bold"><i class="fa-solid fa-play"></i>  ul</span> - - > tagi orqali listlar yarataolamiz:
+                    </h3>
+                    <h3 class=" pb-2">
+                        <span class=" green fw-bold"><i class="fa-solid fa-play"></i>  li</span> - - > tagi orqali list ichidagi elementlarni yaratamiz
+                    </h3>
+                    <h3 class=" pb-2">
+                        <span class=" green fw-bold"><i class="fa-solid fa-play"></i>  ol</span> - - > tagi orqali xam list ichidagi elmentlarni yaratamiz
+                    </h3>
+                    <br>
+                    <br>
+                    <br>
+                    <h3 class=" pb-2">
+                        <span class=" green fw-bold"><i class="fa-solid fa-play"></i>  li</span> - - > atributi type=" ":
+                    </h3>
+                    <h3 class=" pb-2">
+                        <span class=" green fw-bold"><i class="fa-solid fa-play"></i>  disc</span> - defult xolati
+                    </h3>
+                    <h3 class=" pb-2">
+                        <span class=" green fw-bold"><i class="fa-solid fa-play"></i>  circle</span> - yumaloq doira shakli 
+                    </h3>
+                    <h3 class=" pb-2">
+                        <span class=" green fw-bold"><i class="fa-solid fa-play"></i>  square</span> - to'rt burchak shakil.
+                    </h3>
+                    <h3 class=" pb-2">
+                        <span class=" green fw-bold"><i class="fa-solid fa-play"></i>  ol</span> - - > atributi type=" ":
+                    </h3>
+                    <h3 class=" pb-2">
+                        <span class=" green pe-3"><i class="fa-solid fa-play"></i></span> A - kotta xarifdagi belgilar uchun
+                    </h3>
+                    <h3 class=" pb-2">
+                        <span class=" green pe-3"><i class="fa-solid fa-play"></i></span> a - kichik xarifli belgilar uchun
+                    </h3>
+                    <h3 class=" pb-2">
+                        <span class=" green pe-3"><i class="fa-solid fa-play"></i></span> l - rimskiy raqamlarni qo'yish uchun
+                    </h3>
+                    <h3 class=" pb-2">
+                        <span class=" green pe-3"><i class="fa-solid fa-play"></i></span> 1 - oddiy sanoq raqamlarini qo'yish uchun
+                    </h3>
+                </div>
+            </div>
+        </section>
+
+        <section class="container page ">
+            <div class="tablee">
+                <div class="table1 text-center">
+                    <h1 class=" green fw-bold">
+                        <span><</span>TABLE><span><</span>/TABLE>
+                    </h1>
+                </div>
+                <div class="tableee ms-5">
+                    <h4>
+                        table --> tagi orqali xar xil jadvallarni yaratsak bo'ladi
+                    </h4>
+                    <h4>
+                        table --> atributlari:
+                    </h4>
+                    <h4 class=" ps-5 mt-2">
+                        border=" " - jadvalga chegara berish uchun 
+                    </h4>
+                    <h4 class=" ps-5">
+                        bordercolor=" " - jadval chegarasiga rang berish uchun 
+                    </h4>
+                    <h4 class=" ps-5">
+                        bgcolor=" " - jadval uchun orqa fon rangini berish uchun 
+                    </h4>
+                    <h4 class=" ps-5">
+                        cellpadding=" " - ichki joy tashlash
+                    </h4>
+                    <h4 class=" ps-5">
+                        cellspacing=" " - yacheykalar oralig'idagi masofa yaratish 
+                    </h4>
+                    <h4 class=" ps-5">
+                        rules="cols/rows" - yacheykalarorasidagi liniyani olish uchun
+                    </h4>
+                    <h4 class=" pt-5">
+                        table --> ichki taglari:
+                    </h4>
+                    <h4 class=" ps-5">
+                        tr - tagi jadval ichida row ochish uchun 
+                    </h4>
+                    <h4 class=" ps-5">
+                        td - tagi row ichida yacheyka ochish uchun 
+                    </h4>
+                    <h4 class=" ps-5">
+                        thead - tagi jadval ichida bosh qismini yaratish uchun 
+                    </h4>
+                    <h4 class=" ps-5">
+                        tbody - tagi jadval ichida tana qismini yaratish uchun
+                    </h4>
+                    <h4 class=" ps-5">
+                        caption - tagi jadval tepasida kichik bir xabar uchun 
+                    </h4>
+                    <h4 class=" ps-5">
+                        th - tagi bu so'zimizni qalin va o'rtaga o'tkazib beradi
+                    </h4>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="container id page text-center">
+            <h1>
+                <span class=" fw-bold"><span class=" green"><span><</span>tag_nomi</span> <span class=" red">id="idNomi"</span><span class=" green">></span>Text<span class=" green"><span><</span>/tag_nomi></span></span>
+            </h1>
+        </section>
+    </section>
+    <section class="container-fluid p-0">
+        <section class="container page">
+            <h1 class="text-center pt-lg-5 pb-lg-5 fw-bold pt-sm-5" style="color: green;"><span style="color: red;">CSS -</span>  Cascading Style Sheets </h1>
+            <h5 class="text-center pt-lg-5 fw-bold pt-sm-5">Ma’nosi:Kaskadlangan stillar jadvali</h5>
+        </section>
+        <section class="container page">
+            <h1 class="text-center pb-lg-5 fw-bold"
+             style="color: green;"><span style="color: red;">Style(CSS) –</span> Berishni uchta usuli bor
+                </h1>
+               <div class="row  justify-content-lg-center ">
+                <div class="col-12 col-lg-3 my-5">
+                
+                        <div class="box">
+                            <h1 >CSS</h1>
+                            <h1><li>Inline css</li></h1>
+                        </div>
+                </div>
+                <div class="col-12 col-lg-3 my-5">
+                    
+                        <div class="box">
+                            <h1 >CSS</h1>
+                            <h1><li>Internal css</li></h1>
+                      
+                    </div>
+                </div>
+                <div class="col-12 col-lg-3 my-5">
+                   
+                        <div class="box">
+                            <h1 >CSS</h1>
+                            <h1><li>External</li></h1>
+                        </div>
+                 
+                        
+                </div>
+               </div>
+        </section>
+        <section class="container page pt-lg-5 pb-lg-5 text-center position-relative">
+            <h1 class="fw-bold pb-lg-5" style="color: green;"><b>
+                <span style="color: red;">CSS –</span>Box Model</b></h1>
+          <center>
+            <div class="bb text=center fw-bold"style="position: relative;">
+                <div class="b1 col-12 col-lg-10 ">
+                    <!-- <div class="a1"></div> -->
+                    <button class="py-2 px-5"   style="border-radius: 20px; background: rgb(38, 218, 38); "><h1><b>Padding</b></h1></button>
+                </div>
+                <div class="b2 col-12 col-lg-8">
+                    <!-- <div class="a2"></div> -->
+                    <button class="py-2 px-5"  style="border-radius: 20px; background: rgb(38, 218, 38);"><h1><b>Border</b></h1></button>
+                </div>
+                <div class="b3 col-12 col-lg-7">
+                    <!-- <div class="a3"></div> -->
+                    <button class="py-2 px-5"  style="border-radius: 20px; background: rgb(38, 218, 38);"><h1><b>Margin</b></h1></button>
+                </div>
+            </div>
+          </center>
+        </section>
+       
+      <h1></h1>
+        <section class="container page mb-lg-5">
+        <h1 class="fw-bold pb-lg-5 text-center" style="color: rgb(35, 168, 35);">
+            <b>
+                <span style="color: red;">CSS –</span>Border</b>
+            </h1>
+                <div class="row fw-bold text-center border ms-lg-5 me-lg-5" style="background: rgb(35, 177, 35);">
+                    <div class="col-12 text-white pt-lg-4 pb-lg-4">
+                        <h1 class="fw-bold text-center"><b> Border – bir so’z bilan aytganda chegara degani.</b></h1>
+                    </div>
+                    <div class="col-6 border text-white pt-lg-4 pb-lg-4">
+                        <h1><b>Xususiyatlari</b> </h1>
+                    </div>
+                    <div class="col-6 border text-white pt-lg-4 pb-lg-4">
+                        <h1><b>Qiymati </b></h1>
+                    </div>
+                    <div class="col-6 border text-start pt-lg-5 pb-lg-4">
+                        <h2><b>border</b></h2>
+                    </div>
+                    <div class="col-6 border text-start pt-lg-4 pb-lg-4">
+                        <h2><b>border : 1px solid red;
+                        <br> border:
+                            dashed red; <br> border: solid;
+                            </b></h2>
+                    </div>
+                    <div class="col-6 border text-start pt-lg-4 pb-lg-4">
+                        <h2><b>
+                            border-bottom, border-left, border- right, border-top
+
+                        </b></h2>
+                    </div>
+                    <div class="col-6 border text-start pt-lg-4 pb-lg-4">
+                        <h2><b>
+                            border-bottom:1px solid red;
+                            border-top:1px solid red;
+
+                        </b></h2>
+                    </div>
+                    <div class="col-6 border text-start pt-lg-5 pb-lg-4">
+                        <h2><b>
+                            border-style, border-top-style
+
+                        </b></h2>
+                    </div>
+                    <div class="col-6 border text-start pt-lg-3 pb-lg-3">
+                        <h2><b>
+                            Border-style:doted, solid, dashed,
+                            outset…..
+                        </b></h2>
+                    </div>
+                    <div class="col-6 border text-start pt-lg-5 pb-lg-4">
+                        <h2><b>
+                            border-color
+                        </b></h2>
+                    </div>
+                    <div class="col-6 border text-start pt-lg-3 pb-lg-3">
+                        <h2><b>border-color :red blue yellow; 
+                            border-color : blue green ; border :
+                            red</b></h2>
+                    </div>
+                    <div class="col-6 border text-start pt-lg-5 pb-lg-4">
+                        <h2><b>border-width</b></h2>
+                    </div>
+                    <div class="col-6 border text-start pt-lg-4 pb-lg-3">
+                        <h2><b>border : 5px 10px 15px 20 px ;
+                            border : 10px 20 px; <br> border : 15px</b></h2>
+                    </div>
+                </div>
+        </section>
+        <section class="container page mt-lg-5 c1" style="margin-top: 200px;">
+            <h1 class="fw-bold pb-lg-5 text-center" style="color: rgb(35, 168, 35);"><b>
+                <span style="color: red;">CSS –</span>Border</b></h1>
+                <div class="row ms-lg-4">
+                    <div class="col-7 fw-bold bg-black text-white"><br>
+                   <h4> <li>.d1 {border: 3px solid #792cc;}</li></h4> <br>
+                     
+                    <h4><li>.d2 {border: 3px dashed #7922cc;}</li></h4><br>
+                        
+                    <h4><li>.d3 {border: 3px #B81AE3; <br>Border-style:solid dotted; }</li></h4><br>
+                     
+                    <h4><li>.d4 {border: 4px double #B81AE3; <br>border-top: 4px outset #B81AE3;}  </li></h4><br>
+                                
+                    <h4><li>.d5 {border: 3px solid transparent; <br> border-top: ridge #D919C5; <br>
+                        border-bottom: ridge #D919C5;} </li></h4> <br>
+               
+                    <h4><li>.d6 {border-left: 3px dashed #7922cc; <br>
+                        border-right: 3px dashed #D919C5;}</li></h4><br>
+
+                    <h4><li>.d7 {border: 3px outset #C010f0; <br>
+                        border-left: outset #D919C5;}</li></h4><br>
+
+                    <h4><li>.d8 {border: 3px  inset #D919C5 <br> 
+                        border-left: dotted #D919C5; <br> 
+                        border-bottom : dotted  #850f79}</li></h4><br>
+
+                 <h4>   <li>.div {display: inline-block;}</li></h4> <br>
+                    
+                    </div>
+                    <div class="col-5">
+                        <div class="row text-center">
+                    
+                            <div class="col-5 d1 mt-lg-5 ms-lg-4"></div>
+                            <div class="col-5 d2 mt-lg-5 ms-lg-4"></div>
+                            <div class="col-5 d3 mt-lg-5 ms-lg-4"></div> 
+                            <div class="col-5 d4 mt-lg-5 ms-lg-4"></div>
+                            <div class="col-5 d5 mt-lg-5 ms-lg-4"></div>
+                            <div class="col-5 d6 mt-lg-5 ms-lg-4"></div>
+                            <div class="col-5 d7 mt-lg-5 ms-lg-4" ></div>
+                            <div class="col-5 d8 mt-lg-5 ms-lg-4"></div>
+
+                   
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section class="container page mb-lg-5" >
+            <h1 class="fw-bolder pb-lg-5 text-center" style="color: rgb(5, 5, 5)">
+                <span style="color: red;">CSS –</span> Margin</b></h1>
+          
+                    <div class="row fw-bold text-center border ms-lg-5 me-lg-5" style="background: rgb(35, 177, 35);">
+                        <div class="col-12 text-white pt-lg-4 pb-lg-4">
+                            <h1 class="fw-bold text-center"><b> Margin</b></h1>
+                        </div>
+                        <div class="col-6 border text-white pt-lg-4 pb-lg-4">
+                            <h1><b>Xususiyatlari</b> </h1>
+                        </div>
+                        <div class="col-6 border text-white pt-lg-4 pb-lg-4">
+                            <h1><b>Qiymati </b></h1>
+                        </div>
+                        <div class="col-6 border text-start pt-lg-5 pb-lg-4">
+                            <h2><b>margin</b></h2>
+                        </div>
+                        <div class="col-6 border text-start pt-lg-5 pb-lg-5">
+                            <h2><b>margin : 10px 4% 30px 6% ; <br> margin :
+                                10px 50px; <br> margin : 50px ;
+                                
+                                </b></h2>
+                        </div>
+                        <div class="col-6 border text-start pt-lg-5 pb-lg-5">
+                            <h2><b>
+                                margin-bottom, margin-left, marginright, margin-top
+    
+                            </b></h2>
+                        </div>
+                        <div class="col-6 border text-start pt-lg-5 pb-lg-5">
+                            <h2><b>
+                                margin-bottom:100px; <br>
+                                border-top:50px
+    
+                            </b></h2>
+                        </div>
+                        <div class="col-6 border text-start pt-lg-5 pb-lg-3">
+                            <h2><b>
+                                margin : 0 auto; <br>
+                                Width : 300px  ;
+    
+                            </b></h2>
+                        </div>
+                        <div class="col-6 border text-start pt-lg-5 pb-lg-3">
+                            <h2><b>
+                                urtaga olib beradi
+                            </b></h2>
+                        </div>
+                </div>
+        </section>
+        <section class="container page " >
+            <h1 class="fw-bolder pb-lg-5 text-center" style="color: rgb(5, 5, 5)">
+                <span style="color: red;">CSS –</span> Margin</b></h1>
+                <!-- <div class="row border text-center mb-lg-5">
+
+                    <div class="col" style="width: 300px; height: 650px; border: 5px solid rgb(0, 0, 0);">
+                        <h4 style="padding-left: 23px;">⬆️</h4>
+
+                        <h4 class="fw-bold" style="padding-right: 110px; color: blue;">Margin top | </h4>
+                       <h4  style="padding-left: 23px;">⬇️ </h4>
+                       <h4>⬅️➡️</h4>
+                       <div class="row text-center align-content-center position-relative mb-lg-5">
+
+                        <div class="col-12 ms-lg-5 b9 mb-lg-5" 
+                        style="width: 900px; height: 430px; border: 4px solid red;">
+
+                        <h4>⬆️</h4>
+                        <h4 class="fw-bold" style="padding-left: 145px; color: blue;">| padding top</h4>
+                       <h4 >⬇️ </h4>
+
+                            <div class="row">
+                                <div class="col-12 mt-lg-0 ms-lg-5 b9 mb-lg-5" 
+                        style="width: 500px; height: 200px; border: 3px solid rgb(0, 0, 0);">
+                                
+                                </div>
+                            </div>
+                           
+                        
+                            <h4
+                             style="padding-top:200px;">⬆️</h4>
+                             <h4 class="fw-bold" style="padding-left: 190px; color: blue;">| padding bottom</h4>
+                            <h4 >⬇️ </h4>
+                            
+                        </div>
+                       </div>
+                    </div>
+                    
+                </div> -->
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <img src="img/ma.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </section>
+            <section class="container page">
+                <h1 class="fw-bolder pb-lg-5 text-center" style="color: rgb(5, 5, 5)">
+                    <span style="color: red;">CSS –</span> Padding</b></h1>
+                    <div class="row fw-bold text-center border ms-lg-5 me-lg-5" style="background: rgb(35, 177, 35);">
+                        <div class="col-12 text-white pt-lg-4 pb-lg-4">
+                            <h1 class="fw-bold text-center"><b> Padding</b></h1>
+                        </div>
+                        <div class="col-6 border text-white pt-lg-4 pb-lg-4">
+                            <h1><b>Xususiyatlari</b> </h1>
+                        </div>
+                        <div class="col-6 border text-white pt-lg-4 pb-lg-4">
+                            <h1><b>Qiymati </b></h1>
+                        </div>
+                        <div class="col-6 border text-start pt-lg-5 pb-lg-4">
+                            <h2><b>Padding</b></h2>
+                        </div>
+                        <div class="col-6 border text-start pt-lg-5 pb-lg-5">
+                            <h2><b>padding : 10px 2% 30px 5% ;<br>
+                                padding : 10px 50px; <br> Padding : 50px ;
+                                
+                                </b></h2>
+                        </div>
+                        <div class="col-6 border text-start pt-lg-5 pb-lg-5">
+                            <h2><b>
+                                padding-bottom, padding-left, <br>
+                                padding-right, padding-top
+                                
+    
+                            </b></h2>
+                        </div>
+                        <div class="col-6 border text-start pt-lg-5 pb-lg-5">
+                            <h2><b>
+                                padding-bottom:100px; <br>
+                                border-top:50px
+    
+                            </b></h2>
+                        </div>
+                      
+                       
+                </div>
+            </section>
+            <section class="container page">
+                <h1 class="fw-bolder pb-lg-5 text-center" style="color: rgb(5, 5, 5)">
+                    <span style="color: red;">CSS –</span> Padding</b></h1>
+                    <div class="row m-lg-5">
+                        <div class="col-12 col-lg-8  bg-black text-white">
+                           <h5><span><</span> html<span>></span></h5>
+                           <h5><span><</span> head <span>></span></h5> <br>
+                           <h5><span><</span> style <span>></span></h5>
+                            <h5>
+                                div.ex1 {<br>
+                                    width: 300px;<br> 
+                                    background-color: yellow; <br>
+                                } <br> <br>
+    
+                                div.ex2{ <br>
+                                    width: 300px;<br>
+                                    padding: 25px;<br>
+                                    background-color: lightblue;<br>
+                                } 
+                            </h5>
+                            <h5><span>< /</span> style <span>></span></h5>
+
+                           <h5><span> < /</span> head <span>></span></h5> <br>
+                            <h5><span><</span> body <span>></span></h5>
+                            <h5>
+                                <span>< <span>div class="ex1"</span> ></span> This div is 300px wide. <span>< /<span>div</span> ></span>
+                            </h5> <br>
+                           <h5> <span><</span>br<span>></span></h5>
+                           <h5> <br>
+                            <span>< <span>div class="ex1"</span> ></span>
+                             This Width of this div is 350px, even though.<span>< /<span>div</span> ></span>
+                        </h5> 
+                            <h5><span>< /</span> body <span>></span></h5>
+
+                        </div>
+                        <div class="col">
+                            <div class="ex1">
+                                <h5>
+                                    This div is 300px wide.
+
+                             </h5>
+                            </div>
+                            <div class="ex2">
+                                This Width of this div is 350px, even though.
+                            </div>
+                        </div>
+                    </div>
+            </section>
+            <section class="container page mb-5">
+                <div class="row mb-5" >
+                    <div class="col-12 text-center">
+                    <h1 class="fw-bold" style="color: red;">
+                        Navbar <span style="color: rgb(29, 214, 69);">or</span> Menu</h1></div>
+                   
+                    <div class=" col-12 col-lg-6 fw-bold bg-black mt-5" style="height: 550px;">
+                    <p style="color: red;"><span><</span>body></p> 
+
+                        <p style="color: red;"><span><</span>section <span style="color: rgb(170, 25, 206);">class</span>
+                            <span style="color: green;">="guruh"></span></p>
+                            <p style="color: red;"><span><</span>div <span style="color: rgb(170, 25, 206);">class</span><span style="color: green;">="container"></span></p>
+                            <p style="color: red;"><span><</span>h3 <span style="color: rgb(170, 25, 206);">class=</span><span style="color: green;">="Logo"></span><span style="color: white;"> Cuda </span>< /<span>h3></span></p>
+                            <p style="color: red;"><span><</span>ul <span style="color: rgb(170, 25, 206);">class</span><span style="color: green;">="Navbar"></span></p>
+                            <p style="color: red;"><span><</span>li> < a <span style="color: rgb(170, 25, 206);">href</span><span style="color: green;">="#"></span><span style="color: white;">Home</span><span>< /a</span>> <<span>/li></span></p>
+                            <p style="color: red;"><span><</span>li> < a <span style="color: rgb(170, 25, 206);">href</span><span style="color: green;">="#"></span><span style="color: white;">About</span><span>< /a</span>> <<span>/li></span></p>
+                            <p style="color: red;"><span><</span>li> < a <span style="color: rgb(170, 25, 206);">href</span><span style="color: green;">="#"></span><span style="color: white;">Work</span><span>< /a</span>> <<span>/li></span></p>
+                            <p style="color: red;"><span><</span>li> < a <span style="color: rgb(170, 25, 206);">href</span><span style="color: green;">="#"></span><span style="color: white;">Contact</span><span>< /a</span>> <<span>/li></span></p>
+                            
+                            <p style="color: red;">< /</span>ul></p>
+                           
+                            <p style="color: red;"><span><</span>div <span style="color:  rgb(170, 25, 206);">class</span><span style="color: green;">="clear"></span> < /</span>div></p>
+
+                            <p style="color: red;"><span>< /</span>div></p>
+
+                        <p style="color: red;"><span>< /</span>section></p>
+
+                    <p style="color: red;"><span>< /</span>body></p> 
+                    
+                </div>
+                    <div class="col-12 col-lg-6" style="background: #26da26 ;">
+                        <div class="row border">
+                         
+                                <div class="col-6 pt-2 text-center"><h3 class="fw-bold text-white">Element</h3></div>
+                                <div class="col-6 pt-2 border text-center"><h3 class="fw-bold text-white">Description</h3></div>
+
+                                <div class="col-6 border">
+                                    <h4 class="fw-bold pt-2">.guruh {<span style="color: red;" >background-color</span> :yellow;}</h4>
+                                </div>
+                                <div class="col-6 border">
+                                    <h4 class="fw-bold pt-2">Orqadagi fondi rangini
+                                        o’zgartiradi.
+                                        </h4>
+                                </div>
+                                <div class="col-6 border">
+                                    <h4 class="fw-bold pt-2">.container {<span style="color: red;">width</span>:80%;
+                                        <span style="color: red;">margin</span>: 0 auto; }
+                                        </h4>
+                                </div>
+                                <div class="col-6 border">
+                                    <h4 class="fw-bold pt-2">Uzunligini ekaranning
+                                        80%ni oladi va o’rtaga
+                                        surib beradi.</h4>
+                                </div>
+                                <div class="col-6 border">
+                                    <h4 class="fw-bold pt-2">.navbar li {<span style="color: red;" >display</span>:inlineblock; <span style="color: red;" >list-style</span>:none;}
+                                    </h4>
+                                </div>
+                                <div class="col-6 border">
+                                    <h4 class="fw-bold pt-2">Faqat uzini joyini olib
+                                        beradi va tochkalarini
+                                        yuq qilib beradi</h4>
+                                </div>
+                                <div class="col-6 border">
+                                    <h4 class="fw-bold pt-2">.logo {<span style="color: red;" >{float</span>:left;}</h4>
+                                </div>
+                                <div class="col-6 border">
+                                    <h4 class="fw-bold pt-2">Chap tomonga o’tkazib
+                                        beradi</h4>
+                                </div>
+                                <div class="col-6 border">
+                                    <h4 class="fw-bold pt-2">.navbar {<span style="color: red;" >{float:</span>:right;}</h4>
+                                </div>
+                                <div class="col-6">
+                                    <h4 class="fw-bold pt-2">Ung tomonga o’tkazib
+                                        beradi
+                                        </h4>
+                                </div>
+                                <div class="col-6 border">
+                                    <h4 class="fw-bold pt-2">.navbar li a {<span style="color: red;" >text-decoration</span>:none;}</h4>
+                                </div>
+                                <div class="col-6 border">
+                                    <h4 class="fw-bold pt-2"> < a> < /a> - tagni tagidagi
+                                        chizig’ini yuq qilib beradi
+                                        </h4>
+                                </div>
+                               
+                                <div class="col-12 border text-center">
+                                    <h4 class="fw-bold pt-2"><span style="color: red;">Float</span> ni ishlaganimizdan so’ng clear:both; <br>
+                                        ishlatishimiz lozim.</h4>
+                                </div>
+                                <div class="col-6 border">
+                                    <h4 class="fw-bold pt-2">.clear{<span style="color: red;" >clear</span>:both;} </h4>
+                                </div>
+                                <div class="col-6 border">
+                                    <h4 class="fw-bold pt-2">Tozalab beradi</h4>
+                                </div>
+                            </div>
+                         
+                        </div>
+                    </div>
+                </div>
+            </section>
+        <section class="container page">
+            <div class="row justify-content-center">
+                <div class="col-12 text-center">
+                    <h1 class="fw-bolder pb-lg-5 text-center" style="color: rgb(5, 5, 5)">
+                        <span style="color: red;">CSS –  Position</span></h1>
+                        <h2 class="fw-bold" style="color: #26da26;">CSS pozitsiyasi elementi Websiteda qanday joylashishini <br>
+                            ko'rsatadi. <span style="color: red;">Top , Right , Bottom, Left</span> joylashtirilgan <br>
+                            elementlarning oxirgi manzilini belgilaydi.</h2>
+                </div>
+                <div class="col-12 col-lg-8 text-center border text-white" style="background: #26da26;">
+                    <h2>Relative</h2>
+                </div>
+                <div class="col-12 col-lg-8 text-center border text-white" style="background: #26da26;">
+                    <h2>Absolute</h2>
+                </div>
+                <div class="col-12 col-lg-8 text-center border text-white" style="background: #26da26;">
+                    <h2>Fixed</h2>
+                </div>
+                <div class="col-12 col-lg-8 text-center border text-white" style="background: #26da26;">
+                    <h2>Sticky</h2>
+                </div>
+                <div class="col-12 col-lg-8 text-center border text-white" style="background: #26da26;">
+                    <h2>Float</h2></div>
+                <div class="col-12 col-lg-8 text-center border text-white" style="background: #26da26;">
+                    <h2>Z-index</h2>
+            </div>
+            </div>
+        </section>
+        <section class="container page">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1 class="fw-bolder" style="color: #26da26;">RELATIVE</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-lg-8" >
+                   <div class="row">
+                    <div class="col-12 col-lg-3 border bg-success py-5">
+                        <h3>one</h3></div>
+                    <div class="col-12 col-lg-3 border bg-danger py-5 relative_box">
+                        <h3>two</h3></div>
+                    <div class="col-12 col-lg-3 border bg-success py-5" >
+                        <h3>three</h3></div>
+                    <div class="col-12 col-lg-3 border bg-success py-5" >
+                        <h3>four</h3></div>
+                   </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <h3 class="fw-bold"><span style="color:green; padding-left: 50px;">▶ &nbsp;</span> Relative <br>
+                        <span style="color:green; padding-left: 50px;">▶ &nbsp;</span>.box2 { <br>
+                     <span >
+                        <span style="color:green; padding-left: 100px;">▶ &nbsp;</span> width : 300px; <br>
+                        <span style="color:green; padding-left: 100px;">▶ &nbsp;</span> Height : 300px; <br>
+                        <span style="color:green; padding-left: 100px;">▶ &nbsp;</span> Position : relative; <br>
+                        <span style="color:green; padding-left: 100px;">▶ &nbsp;</span> Top : 100px; <br>
+                        <span style="color:green; padding-left: 100px;">▶ &nbsp;</span> Left : 300px; <br>
+                    </span>
+                    <span style="color:green; padding-left: 50px;">▶ &nbsp;</span> } <br>
+                        <span style="color:green; padding-left: 50px;">▶ &nbsp;</span> Boshqa elementlar <br>
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; surilganini bilmaydi</h3>
+                </div>
+            </div>
+        </section>
+        <section class="container page">
+            <div class="row">
+                <div class="col-12 text-center pb-5">
+                    <h1 class="fw-bolder" style="color: red;">Absolute</h1>
+
+                </div>
+                <div class="col-12 col-lg-8 ps-5"> 
+                    <img class="img-fluid" src="img/Снимок экрана 2022-08-16 090149.png" alt="">
+                </div>
+                <div class="col-12 col-lg-4"> 
+                    <h3 class="fw-bold">
+                        <span style="color:green;">▶</span>.parent{ <br>
+                           <span style="color:green; padding-left: 50px;">▶</span> Position : relative; <br>
+                           <span style="color:green;">▶</span> } <br>
+                           <span style="color:green;">▶</span> .child { <br>
+                           <span style="color:green; padding-left: 50px;">▶</span> Position : absolute; <br>
+                           <span style="color:green; padding-left: 50px;">▶</span> Top : 50px; <br>
+                           <span style="color:green; padding-left: 50px;">▶</span> Left : 200px; <br>
+                           <span style="color:green;">▶</span> } <br>
+                           <span style="color:green;">▶</span> Boshqa elementlar <br>
+                           <span style="color:green;">▶</span> surilganini biladi va joyiga <br>
+                           <span style="color:green;">▶</span> surilib oladi. <br>
+                           <span style="color:green;">▶</span> Agar parent class yuq bulsa <br>
+                           <span style="color:green;">▶</span> < body>ni parent deb <br>
+                           <span style="color:green;">▶</span> hisoblaydi <br>
+                    </h3>
+                </div>
+            </div>
+        </section>
+        <section class="container page">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1 class="fw-bolder" style="color: red;">Fixed</h1>
+                    <h4 class="fw-bold">Position fixed – browserga nisbatan suriladi. Pastga tushib ketsak <br>
+                        ham (yani scroll qilsak ham) u joyidan qimirlamaydi.</h4>
+                </div>
+                <div class="col-12 col-lg-6 ps-lg-5 pt-lg-5">
+                    <img src="img/Снимок экрана 2022-08-16 095944.png" class="img-fluid" alt="">
+                </div>
+                <div class="col-12 col-lg-6 ps-lg-5 pt-lg-5">
+                    <h3 class="fw-bold">
+                        <span style="color: green;">▶</span>.box { <br>
+                            <span style="color: green; padding-left: 50px;">▶</span>Position : fixed; <br>
+                            <span style="color: green; padding-left: 50px;">▶</span>Top : 0; <br>
+                            <span style="color: green; padding-left: 50px;">▶</span>Left : 0; <br>
+                            <span style="color: green;">▶</span>} <br>
+                            <span style="color: green;">▶</span>Boshqa elementlar <br>
+                            &nbsp; &nbsp;  surilganini biladi va <br>
+                            &nbsp; &nbsp;  joyiga surilib oladi.
+                    </h3>
+                </div>
+            </div>
+        </section>
+        <section class="container page">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1 class="fw-bolder" style="color: #26da26;">Sticky</h1>
+
+                </div>
+                <div class="col-12 col-lg-6 pt-lg-5 ps-lg-5 pb-5">
+                    <img src="img/Снимок экрана 2022-08-16 100754.png" class="img-fluid" alt="">
+                </div>
+                <div class="col-12 col-lg-6 pt-lg-5 ps-lg-5">
+                    <h3 class="fw-bold">
+                        <span style="color: green;">▶</span>.box {<br>
+                            <span style="color: green; padding-left: 50px">▶</span> Position : sticky; <br>
+                            <span style="color: green; padding-left: 50px">▶</span> Top : 50px; <br>
+                            <span style="color: green;">▶</span> } <br>
+                            <span style="color: green;">▶</span> Uzidan bitta oldingi ona <br>
+                            elementiga qamalib qoladi <br>
+                            <span style="color: green;">▶</span> Boshqa elementlar surilganini <br>
+                            bilmaydi
+                    </h3>
+                </div>
+            </div>
+        </section>
+        <section class="container page">
+            <div class="row pb-5">
+                <div class="col-12 text-center">
+                    <h1 class="fw-bolder" style="color: #26da26;">Float</h1>
+
+                </div>
+                <div class="col-12 col-lg-6 pt-lg-5 ps-lg-5">
+                    <img src="img/Снимок экрана 2022-08-16 101228.png" class="img-fluid" alt="">
+                </div>
+                <div class="col-12 col-lg-6 pt-lg-5 ps-lg-5">
+                    <h3 class="fw-bold">
+                        <span style="color: green;">▶</span>.box { <br>
+                             <span style="color: green; padding-left: 50px">▶</span>Float : left;<br>
+                             <span style="color: green; padding-left: 50px">▶</span>Width : 40%; <br>
+                             <span style="color: green;">▶</span>} <br>
+                             <span style="color: green;">▶</span>.content { <br>
+                             <span style="color: green; padding-left: 50px">▶</span>Float : right; <br>
+                             <span style="color: green; padding-left: 50px">▶</span>Width : 40%; <br>
+                             <span style="color: green;">▶</span>} <br>
+                             <span style="color: green;">▶</span>.clear {Clear : both;} <br>
+                             <span style="color: green;">▶</span>Boshqa elementlar <br>
+                            &nbsp; &nbsp; surilganini biladi va joyiga <br>
+                            &nbsp; &nbsp; surilib oladi
+                    </h3>
+                </div>
+            </div>
+        </section>
+        <section class="container page">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1 class="fw-bolder" style="color: #26da26;">CSS <span style="color: red;">Fonts</span></h1>
+
+                </div>
+                <div class="col-12 col-lg-8 pt-lg-5 ps-lg-5">
+                    <img src="img/Снимок экрана 2022-08-16 102040.png" class="img-fluid" alt="">
+                </div>
+                <div class="col-12 col-lg-4 pt-lg-5 ps-lg-5">
+                    <h3 class="fw-bold">
+                        <span style="color: green;">▶ &nbsp;</span>Fontni kodimizga <br>
+                        ulashning ikki xil <br>
+                        usuli bor: <br>
+                        1. html faylimizga <br>
+                        link orqali <br> (
+                            <span style="color: red;">
+                                < link rel="preconn <br>
+                        ect
+                        " href="https://fo <br>
+                        nts.gstatic.com" cr <br>
+                        ossorigin /> 
+                        ); <br>
+                            </span>
+                        2. css faylimizga <br>
+                        @import orqali <br> (
+                            <span style="color: red;">
+                                @import url('https:// <br>
+                        fonts.googleapis.co <br>
+                        m/css2?family=Ope <br>
+                        n+Sans:wght@700& <br>
+                        display=swap');
+                            </span>
+                        ). <br>
+                        <span style="color: green;">▶ &nbsp;</span>
+                        font
+                        -family{..} <br>
+                        <span style="color: green;">▶ &nbsp;</span>
+                        font
+                        -size{..}
+                    </h3>
+                </div>
+            </div>
+        </section>
+        <section class="container page">
+            <div class="row">
+                <div class="col-12 text-center">
+                <h1 class="fw-bolder" style="color: #100386;">CSS Psevdoclasslar <span style="color: red;">nima  va uning turlari</span></h1>
+
+                </div>
+                <div class="col-12 col-lg-6">
+                    <h3 class="fw-bold">
+                        <span style="color: green;">▶ &nbsp;</span>
+                         CSS psevdoclasslar - bu uning <br>
+                        holatini belgilaydigan <br>
+                        selektorga qo'shilgan kalit <br>
+                        so'z. Masalan: biron bir <br>
+                        element ustida <br>
+                        harakatlanayotganda  uning <br>
+                         rangini o'zgartirish uchun <br>
+                        ishlatilishi mumkin, yoki <br>
+                        biron bir element bosilganda <br>
+                        uning rangi o’zgarib qolishi. <br>
+                    </h3>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <h3 class="fw-bold">
+                        псевдо <br> селекторы &nbsp; &nbsp;:link <br>:hover <br>:active <br>:visited <br> :focus <br>:first:child <br>
+                        :last:child <br>:nth-child
+
+                    </h3>
+                </div>
+            </div>
+        </section>
+        <section class="container page">
+           <div class="row">
+            <div class="col-12 text-center">
+                <h1 class="fw-bolder" style="color: #880707;">Psevdoclasslarning turlari va manosi</h1>
+
+                </div>
+           </div>
+            <div class="row border" style="background-color: #76da26;">
+                <div class="col-12 col-lg-2 p-2 border ">
+                    <h3 class="fw-bold text-white">
+                        hover
+                        a:hover{….} 
+                    </h3>
+                </div>
+                <div class="col-12 col-lg-10 border">
+                    <h3 class="fw-bold text-white">
+                        Sichqoncha kursori ustida turgan elementning stili o’zgaradi 
+                    </h3>
+                </div>
+                    <div class="col-12 col-lg-2 p-2 border ">
+                        <h3 class="fw-bold">
+                            active
+                            a:active {….}
+                        </h3>
+                    </div>
+                    <div class="col-12 col-lg-10 border">
+                        <h3 class="fw-bold">
+                            Faol havola uchun stilni belgilaydi. Havola bosilganda faol bo'ladi.
+                        </h3>
+                    </div>
+                    <div class="col-12 col-lg-2 border ">
+                        <h3 class="fw-bold text-white">
+                            focus
+                            a:focus {….}
+                        </h3>
+                    </div>
+                    <div class="col-12 col-lg-10 border">
+                        <h3 class="fw-bold text-white">
+                            Fokuslanadigan elementning stilini belgilaydi. Sichqonchamiz
+                            biron bir elementning ustiga borib bosilgandan keyingina
+                            rangiuzgaradi va sichqonchamizni boshqa joyga olib borib borib
+                            bosmagunimizgacha uni rangi uzgarmaydi. Masalan, bu kursor
+                            joylashtirilgan formadagi matn maydoni bo'lishi mumkin.
+                        </h3>
+                    </div>
+                    <div class="col-12 col-lg-2 border ">
+                        <h3 class="fw-bold">
+                            last-child
+                            ul:last-child {…}
+                        </h3>
+                    </div>
+                    <div class="col-12 col-lg-10 border">
+                        <h3 class="fw-bold">
+                            Ona elementining oxirgi elementining stilini belgilaydi.
+                        </h3>
+                    </div>
+                    <div class="col-12 col-lg-2 border ">
+                        <h3 class="fw-bold text-white">
+                            firs-child
+                            ul:first-child {..} 
+                        </h3>
+                    </div>
+                    <div class="col-12 col-lg-10 border">
+                        <h3 class="fw-bold text-white">
+                            Ona elementining oxirgi elementining stilini belgilaydi.
+                        </h3>
+                    </div>
+                    <div class="col-12 col-lg-2 border ">
+                        <h3 class="fw-bold">
+                            nth-child
+                            ul:nth-child(3) {}
+                        </h3>
+                    </div>
+                    <div class="col-12 col-lg-10 border">
+                        <h3 class="fw-bold">
+                            Ona elementining oxirgi elementining stilini belgilaydi.
+                        </h3>
+                    </div>
+                    <div class="col-12 col-lg-2 border ">
+                        <h3 class="fw-bold">
+                            visited
+                            a:visited{…}
+
+                        </h3>
+                    </div>
+                    <div class="col-12 col-lg-10 border">
+                        <h3 class="fw-bold">
+                            tashrif buyurilgan foydalanuvchi allaqachon tashrif buyurgan va
+                            ularni stiling o’zagartiradi qo'llaniladi.
+                            
+                        </h3>
+                    </div>
+            </div>
+        </section>
+        <section class="container page">
+            <div class="row">
+                <div class="col-12 text-center p-5">
+                    <h1 class="fw-bolder" style="color: #880707;"><span style="color: blue;">CSS Psevdoelementlar</span> nima va uning turlari
+                    </h1>
+    
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <h3>
+                            <span style="color:green;">▶</span>
+                            <span style="color: blue;">CSS Psevdoelementlar</span> -bu <br>
+                            tanlangan elementning ma'lum bir <br>
+                            qismini stillash imkonini beruvchi <br>
+                            selektorga qo'shilgan kalit so'z. <br>
+                        </h3> <br>
+                        <h3>
+                            <span style="color:green;">▶</span> 
+                            <span style="color:blue">CSS3</span> -da Psevdoelementlar va <br>
+                            Psevdoclasslarni bir biridan <br>
+                            farqlash uchun ikkita ikki nuqta <br>
+                            bilan belgilanadi. CSS2 -da ular <br>
+                            bitta nuqta bilan belgilanadi. <br>
+                            Brauzerlar odatda ikkala <br>
+                            sintaksisini ham tushunadilar. <br>
+                        </h3>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <img src="img/Снимок экрана 2022-08-25 100534.png" class="img-fluid" alt="">
+                    </div>
+            </div>
+        </section>
+        <section class="container page">
+            <div class="row">
+                <div class="col-12 text-center p-5">
+                    <h1 class="fw-bolder" style="color: #880707;">Psevdoelementlar turlari va manosi</h1>
+    
+                    </div>
+            </div>
+            <div class="row border" style="background-color: rgb(18, 163, 78);">
+                    <div class="col-12 col-lg-4  border p-2 text-white">
+                        <h3>P::first-letter</h3>
+                    </div>
+                    <div class="col-12 col-lg-8  border p-2 text-white">
+                        <h3>matnning birinchi harfiga maxsus uslub qo'shish uchun ishlatiladi. </h3>
+                    </div>
+                    <div class="col-12 col-lg-4  border p-2">
+                        <h3>P::first-line</h3>
+                    </div>
+                    <div class="col-12 col-lg-8  border p-2">
+                        <h3>Faol havola uchun stilni belgilaydi. Havola bosilganda faol bo'ladi. </h3>
+                    </div> <div class="col-12 col-lg-4 border p-2 text-white">
+                        <h3>::before</h3>
+                    </div>
+                    <div class="col-12 col-lg-8  border p-2 text-white">
+                        <h3>element tarkibidan oldin ba'zi tarkibni kiritish uchun ishlatilishi
+                            mumkin.
+                            </h3>
+                    </div> <div class="col-12 col-lg-4  border p-2">
+                        <h3>::after</h3>
+                    </div>
+                    <div class="col-12 col-lg-8  border p-2">
+                        <h3>element tarkibidan keyin ba'zi tarkibni kiritish uchun ishlatilishi
+                            mumkin. </h3>
+                    </div> <div class="col-12 col-lg-4  border p-2 text-white">
+                        <h3>ul::maker{..}
+                            ol::maker{...} </h3>
+                    </div>
+                    <div class="col-12 col-lg-8  border p-2 text-white">
+                        <h3>ro'yxat elementlarining soni yoki nuqtalarining rangini o’zgartiradi. </h3>
+                    </div> <div class="col-12 col-lg-4  border p-2">
+                        <h3>p::selection
+                            {color: red;
+                            background:
+                            yellow;}
+                            </h3>
+                    </div>
+                    <div class="col-lg-8 col-12 border p-2">
+                        <h3>foydalanuvchi tanlagan element qismiga mos keladi. </h3>
+                    </div>
+            </div>
+        </section>
+    </section>
+
+
+
+
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script> -->
+    <script src="bootstrap-5.2.0-beta1-dist/js/bootstrap.js"></script>
+</body>
+</html>
